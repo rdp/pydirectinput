@@ -4,6 +4,17 @@ This library aims to replicate the functionality of the PyAutoGUI mouse and keyb
 
 `pip install pydirectinput`
 
+Except this is a version with a few PR's applied, try this instead:
+
+`pip install git+https://github.com/rdp/pydirectinput`
+
+You can also do 
+```python
+   >>> import pydirectinput as pyautogui
+```
+
+To see if it's a drop in replacement.
+
 This package is intended to be used in conjunction with PyAutoGUI. You can continue to use PyAutoGUI for all of its cool features and simply substitute in PyDirectInput for the inputs that aren't working. The function interfaces are the same, but this package may not implement all optional parameters and features.
 
 Want to see a missing feature implemented? Why not give it a try yourself! I welcome all pull requests and will be happy to work with you to get a solution fleshed out. Get involved in open source! Learn more about programming! Pad your resume! Have fun!
